@@ -76,6 +76,7 @@ Resources:
       # TODO-----t2.micro is free with (1vcpu , 1 gb memory), but we need t3.micro(2vCPU, 4 GB memory)
       InstanceType: t2.micro
       ImageId: ami-0a634ae95e11c6f91
+      IamInstanceProfile: !Ref RootInstanceProfile
       KeyName: "uu"
       BlockDeviceMappings:
         - DeviceName: "/dev/sdk"
