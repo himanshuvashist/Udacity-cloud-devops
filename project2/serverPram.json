@@ -1,0 +1,13 @@
+[{
+        "ParameterKey": "EnvironmentName",
+        "ParameterValue": "udagram"
+    },
+    {
+        "ParameterKey": "S3BucketName",
+        "ParameterValue": "udacity-udagram-project-2"
+    },
+    {
+        "ParameterKey": "S3ArchiveFile",
+        "ParameterValue": "udagram.zip"
+    }
+]
